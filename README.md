@@ -91,9 +91,7 @@ network-risk-analyzer/
 ├── scripts/
 │   └── generate_sample.py        # Deterministic sample generator
 ├── notebooks/
-│   ├── demo_walkthrough.ipynb    # Runnable example using synthetic data
-│   └── legacy/
-│       └── original_exploration.ipynb  # Historical notebook, outputs removed
+│   └── demo_walkthrough.ipynb    # Runnable example using synthetic data
 ├── tests/
 │   └── test_pipeline.py
 ├── docs/
