@@ -1,4 +1,4 @@
-# Firewall Risk Analyzer
+# Network Risk Analyzer
 
 **Isolation Forest | Python | pandas | scikit-learn | Streamlit**
 
