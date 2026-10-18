@@ -46,6 +46,6 @@ These changes affect numeric results compared with the original notebook. The ge
 
 ## Original dataset and public release
 
-The original firewall-log dataset is no longer available, so the historical analysis cannot be rerun here. This repository includes only generated synthetic example records. Keep raw organizational logs and sensitive network metadata out of a public repository unless explicitly authorized to release them.
+The original dataset is no longer available, so the historical analysis cannot be rerun here. This repository includes only generated synthetic example records.
 
 This public version omits the original report and presentation because they contain identifiers and network-related figures.
