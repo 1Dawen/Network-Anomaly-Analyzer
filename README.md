@@ -81,7 +81,7 @@ The values 50/200/500 for received bytes, the office-hour assumptions, and the t
 ## Code and repository layout
 
 ```text
-firewall-risk-analyzer/
+network-risk-analyzer/
 ├── README.md
 ├── risk_pipeline.py              # Feature engineering, fitted ML pipeline, scoring
 ├── train.py                      # Train and save a model from a CSV
