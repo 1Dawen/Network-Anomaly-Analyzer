@@ -1,0 +1,26 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Testing and Jupyter
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Trained models
+artifacts/
+*.joblib
+*.pkl
+
+# Environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
