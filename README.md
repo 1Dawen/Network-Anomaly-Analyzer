@@ -1,8 +1,8 @@
 # Firewall Risk Analyzer
 
-**Isolation Forest · Python · pandas · scikit-learn · Streamlit**
+**Isolation Forest | Python | pandas | scikit-learn | Streamlit**
 
-A university machine learning project developed by Dante Candia that explores anomaly detection in firewall logs. It processes network events, looks for statistical outliers with Isolation Forest, and assigns a heuristic risk score to each source IP. The Streamlit app lets you upload a CSV, review the highest-scoring IPs, and export a summary.
+A university machine learning project that explores anomaly detection in firewall, VPN and enpoint logs. It processes network events, looks for statistical outliers with Isolation Forest, and assigns a heuristic risk score to each source IP. The Streamlit app lets you upload a CSV, review the highest-scoring IPs, and export a summary.
 
 **This is a demonstration, not a production intrusion detection system.** An unusual event is not necessarily malicious, and the risk score is not a probability of an attack.
 
@@ -110,6 +110,5 @@ To make the implementation inspectable and runnable, this repository provides a 
 
 The Isolation Forest setting `contamination=0.05` defines an assumed 5% outlier fraction during fitting. It does **not** mean `p < 0.05`, 95% confidence, or 95% model accuracy. No p-value or statistically validated detection performance is claimed.
 
-The notebook under `notebooks/legacy/` is retained as an historical code reference, with saved outputs removed. It cannot be run without the missing original data. The original report and presentation are not distributed here because they contain identifying information and network-specific figures.
 
 See [technical review](docs/technical_review.md) for the original implementation's limitations and the changes made to the runnable version.
