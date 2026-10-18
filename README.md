@@ -2,7 +2,7 @@
 
 **Isolation Forest | Python | pandas | scikit-learn | Streamlit**
 
-A university machine learning project that explores anomaly detection in firewall, VPN and enpoint logs. It processes network events, looks for statistical outliers with Isolation Forest, and assigns a heuristic risk score to each source IP. The Streamlit app lets you upload a CSV, review the highest-scoring IPs, and export a summary.
+A university machine learning project that explores anomaly detection in firewall, VPN and endpoint logs. It processes network events, looks for statistical outliers with Isolation Forest, and assigns a heuristic risk score to each source IP. The Streamlit app lets you upload a CSV, review the highest-scoring IPs, and export a summary.
 
 **This is a demonstration, not a production intrusion detection system.** An unusual event is not necessarily malicious, and the risk score is not a probability of an attack.
 
